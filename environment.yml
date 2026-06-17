@@ -1,0 +1,14 @@
+name: cascading-rl
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandapower
+      - networkx
+      - matplotlib
+      - numpy
+      - pandas
+      - stable-baselines3
+      - gymnasium
+      - grid2op
+      - torch
